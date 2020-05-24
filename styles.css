@@ -1,7 +1,7 @@
 html,body {
   height: 100%;
   width: 100%;
-  background: url("img/opensuse.png") no-repeat fixed;
+  background: url("img/real_gamer_shit.jpg") no-repeat fixed;
   background-size: cover;
 }
 .image-section {
@@ -35,13 +35,14 @@ display:none;
 .dateTime {
   text-align: center;
   color: antiquewhite;
+  -webkit-text-stroke: 2px purple;
   position: relative;
 display: block;
 margin-top: 5.5%;
 font-family: 'Teko';
 }
 .date{
-  font-size: 3em;
+  font-size: 5em;
 }
 .time{
 font-size: 9em;
@@ -49,10 +50,12 @@ margin-top: -50px;
 
 }
 #hour{
-  color: #4bbd4a;
+  color: antiquewhite;
+  -webkit-text-stroke: 3px purple;
 }
 #minute{
-  color: #B7E4B6;
+  color: purple;
+  -webkit-text-stroke: 3px antiquewhite;
 }
 /* devanagari */
 @font-face {
